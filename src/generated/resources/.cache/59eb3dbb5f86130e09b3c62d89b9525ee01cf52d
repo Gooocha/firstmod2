@@ -1,3 +1,10 @@
-// 1.19.3	2023-05-17T11:57:09.8012602	Loot Tables
+// 1.19.3	2023-05-20T02:52:01.9926013	Loot Tables
 957a62b780a8463c10f68fb8a611c2efc85a04be data/firstmod/loot_tables/blocks/necro_block.json
 9f65c22cf69ac18bfde37a54aa3190314c8c3d2d data/firstmod/loot_tables/blocks/necro_block_ore.json
+2f016a4f464957c85a066db118677343fff95973 data/firstmod/loot_tables/blocks/necro_leaves.json
+3c5547593128abe2379e365e6fc79ed661fa566b data/firstmod/loot_tables/blocks/necro_log.json
+d9feec1de9e9ceed8c00af23a98b562370f7b699 data/firstmod/loot_tables/blocks/necro_planks.json
+697f937d912a735c9b38575e51ce1e384c43b084 data/firstmod/loot_tables/blocks/necro_sapling.json
+e9d14f2c4dede1ef0d378fe9ce10e89716509295 data/firstmod/loot_tables/blocks/necro_wood.json
+84300deec632fc0fe1118c0b36dc775b0cce48fa data/firstmod/loot_tables/blocks/stripped_necro_log.json
+ff34d33eaa1c401c0d2e0d1fca025526d9490b1a data/firstmod/loot_tables/blocks/stripped_necro_wood.json

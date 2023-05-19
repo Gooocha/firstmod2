@@ -31,7 +31,7 @@ public class ModBlockStateProvider extends BlockStateProvider  {
 
         logBlock(((RotatedPillarBlock) ModBlocks.NECRO_LOG.get()));
         axisBlock((RotatedPillarBlock) ModBlocks.NECRO_WOOD.get(),blockTexture(ModBlocks.NECRO_LOG.get()),blockTexture(ModBlocks.NECRO_LOG.get()));
-        axisBlock((RotatedPillarBlock) ModBlocks.STRIPPED_NECRO_WOOD.get(), new ResourceLocation(Firstmod.MOD_ID,"block/stripped_necro_log"),
+        axisBlock((RotatedPillarBlock) ModBlocks.STRIPPED_NECRO_LOG.get(), new ResourceLocation(Firstmod.MOD_ID,"block/stripped_necro_log"),
                 new ResourceLocation(Firstmod.MOD_ID,"block/stripped_necro_log_top"));
         axisBlock((RotatedPillarBlock) ModBlocks.STRIPPED_NECRO_WOOD.get(), new ResourceLocation(Firstmod.MOD_ID,"block/stripped_necro_log"),
                 new ResourceLocation(Firstmod.MOD_ID,"block/stripped_necro_log"));
