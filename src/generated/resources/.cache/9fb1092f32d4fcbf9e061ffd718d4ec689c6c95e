@@ -1,0 +1,7 @@
+// 1.19.3	2023-05-17T16:23:57.7102	Recipes
+187ae51c05509121622f805e624f090a8ed1267c data/firstmod/advancements/recipes/building_blocks/necro_ore.json
+065d7e6e1317c4a52a292d6e0ed27737f3162d7e data/firstmod/advancements/recipes/misc/necro_block_ore.json
+bb4d545d9513675b119e215ead405254886f772c data/firstmod/advancements/recipes/misc/necro_ore_from_smelting_necro_ore.json
+b1177bc425696ed322a07b05925a5fdcb495318b data/firstmod/recipes/necro_block_ore.json
+b43a96f3005f0c49fa31abce03f7cdeead9748a5 data/firstmod/recipes/necro_ore.json
+6d704fac86a22b8037801a17301405fed4b955c7 data/firstmod/recipes/necro_ore_from_smelting_necro_ore.json

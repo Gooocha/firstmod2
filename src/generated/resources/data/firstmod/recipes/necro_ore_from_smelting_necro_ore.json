@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": " necro_ingot",
+  "ingredient": {
+    "item": "firstmod:necro_ore"
+  },
+  "result": "firstmod:necro_ore"
+}
