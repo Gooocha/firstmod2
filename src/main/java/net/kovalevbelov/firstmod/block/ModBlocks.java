@@ -3,6 +3,7 @@ package net.kovalevbelov.firstmod.block;
 import net.kovalevbelov.firstmod.Firstmod;
 import net.kovalevbelov.firstmod.block.custom.ModFlammableRotatedPillarBlock;
 import net.kovalevbelov.firstmod.item.ModItems;
+import net.kovalevbelov.firstmod.worldGeneration.tree.NecroTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -79,7 +80,7 @@ public class ModBlocks {
                 }
             });
     public static final RegistryObject<Block> NECRO_SAPLING = registerBlock("necro_sapling",
-            () -> new SaplingBlock(null,BlockBehaviour.Properties.copy(Blocks.SPRUCE_SAPLING)));
+            () -> new SaplingBlock(new NecroTreeGrower(),BlockBehaviour.Properties.copy(Blocks.SPRUCE_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "firstmod:necro_block_ore",
-    "firstmod:necro_block",
     "firstmod:necro_wood",
     "firstmod:necro_log",
     "firstmod:stripped_necro_log",

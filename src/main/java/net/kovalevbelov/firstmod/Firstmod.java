@@ -74,6 +74,12 @@ public class Firstmod
         }
         if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.NECRO_BLOCK_ORE);
+            event.accept(ModBlocks.NECRO_LOG);
+            event.accept(ModBlocks.NECRO_WOOD);
+            event.accept(ModBlocks.NECRO_PLANKS);
+            event.accept(ModBlocks.STRIPPED_NECRO_LOG);
+            event.accept(ModBlocks.STRIPPED_NECRO_WOOD);
+            event.accept(ModBlocks.NECRO_SAPLING);
         }
     }
 

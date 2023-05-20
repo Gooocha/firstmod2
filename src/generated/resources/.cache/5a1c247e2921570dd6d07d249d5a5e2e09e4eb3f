@@ -1,9 +1,10 @@
-// 1.19.3	2023-05-20T02:52:01.9963168	Block States: firstmod
+// 1.19.3	2023-05-20T03:06:08.6005898	Block States: firstmod
 64c299194511794fac1dce889cab8cf26ba6c4f5 assets/firstmod/blockstates/necro_block.json
 de9a031264ffb60d7b1a02812fba596eab436f23 assets/firstmod/blockstates/necro_block_ore.json
 a1689cd9e678f11ad37e49c338ddd1829285d87e assets/firstmod/blockstates/necro_leaves.json
 f8d53339e88ad9f2538fb61bf47f11c6d7114792 assets/firstmod/blockstates/necro_log.json
 445709589b6eeee0c8a8dcca7d1c168e68852d6a assets/firstmod/blockstates/necro_planks.json
+2f4e16d476f93ad2088c39a3e313f4660580f2c7 assets/firstmod/blockstates/necro_sapling.json
 688e23d288bcabc2294bbed881a86b6c1fcdd08b assets/firstmod/blockstates/necro_wood.json
 8ea72500d374c1381728bd1794147f0cbb529f5a assets/firstmod/blockstates/stripped_necro_log.json
 962b10bfbb85be13cb40451caaad50f172258f19 assets/firstmod/blockstates/stripped_necro_wood.json
@@ -13,6 +14,7 @@ bca1549f736d201c24b493db96301a7cfc1417a5 assets/firstmod/models/block/necro_bloc
 0d3e0d559537e8896057daf5fb69b9f77bc90889 assets/firstmod/models/block/necro_log.json
 636de45bc82e9c1c17a9f9f528b5b2de522c4e68 assets/firstmod/models/block/necro_log_horizontal.json
 2f04b603e6de08048beeb101eab37801e8a37073 assets/firstmod/models/block/necro_planks.json
+1c660090f4c99d2cc6f3eeb3bda6d23a86606462 assets/firstmod/models/block/necro_sapling.json
 2ec148d4ab3b4904f35f63a94aa3290d9b895c86 assets/firstmod/models/block/necro_wood.json
 6ba3a84ecdad34d470ea4ec0eea6b015af7a0a94 assets/firstmod/models/block/necro_wood_horizontal.json
 60d70d673fad390788f73e6a06db8ed1e2b84d39 assets/firstmod/models/block/stripped_necro_log.json
@@ -22,12 +24,12 @@ a156269b5da4386da87cb46545fa47fb5f70c114 assets/firstmod/models/block/stripped_n
 dcf6eeff8d96bac30a70004f768cf5e4214ff18c assets/firstmod/models/item/necro_block.json
 7225f199d20120e8f28f4cdf9ad1ee1bdda7b088 assets/firstmod/models/item/necro_block_ore.json
 9286eb6dd5f981c04646ebeaeef65b971724d5e2 assets/firstmod/models/item/necro_leaves.json
-69e6d6bdf87329240d34be3f8631aef98339f25e assets/firstmod/models/item/necro_log.json
+6b2620a5449e4a6719d65504151af9e057229d4f assets/firstmod/models/item/necro_log.json
 cd19401cf6bd0c0617b7054c6038917a2ba05e3e assets/firstmod/models/item/necro_planks.json
-4f1fe8290a1a385ac665324fc6c6561552acc602 assets/firstmod/models/item/necro_wood.json
-19e6b149e9588f9d6024ff682e677f9dd6bec2a0 assets/firstmod/models/item/stripped_necro_log.json
-e58955bc9609ece81087816d5c7d88cc46ddeefc assets/firstmod/models/item/stripped_necro_wood.json
-2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomd/models/block/necro_log.json
-2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomd/models/block/necro_wood.json
-2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomd/models/block/stripped_necro_log.json
-2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomd/models/block/stripped_necro_wood.json
+f605b86748cedd3944163001a12fe23dac1fc7a4 assets/firstmod/models/item/necro_wood.json
+73cc68b715a8c4f23921ca258b91f324e9331847 assets/firstmod/models/item/stripped_necro_log.json
+492102f557d40882e339db0556326aee0202f32c assets/firstmod/models/item/stripped_necro_wood.json
+2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomod/models/block/necro_log.json
+2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomod/models/block/necro_wood.json
+2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomod/models/block/stripped_necro_log.json
+2116603535a59d8e2015f6f41ed114c672ec0f48 assets/firstomod/models/block/stripped_necro_wood.json

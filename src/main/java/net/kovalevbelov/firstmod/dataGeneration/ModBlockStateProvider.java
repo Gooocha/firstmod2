@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockStateProvider extends BlockStateProvider  {
@@ -23,11 +24,12 @@ public class ModBlockStateProvider extends BlockStateProvider  {
         BlockWithItem(ModBlocks.NECRO_BLOCK);
         BlockWithItem(ModBlocks.NECRO_PLANKS);
         BlockWithItem(ModBlocks.NECRO_LEAVES);
+        saplingBlock(ModBlocks.NECRO_SAPLING);
 
-        simpleBlockItem(ModBlocks.NECRO_LOG.get(), models().withExistingParent("firstomd:necro_log", "minecraft:block/cube_column"));
-        simpleBlockItem(ModBlocks.NECRO_WOOD.get(), models().withExistingParent("firstomd:necro_wood", "minecraft:block/cube_column"));
-        simpleBlockItem(ModBlocks.STRIPPED_NECRO_LOG.get(), models().withExistingParent("firstomd:stripped_necro_log", "minecraft:block/cube_column"));
-        simpleBlockItem(ModBlocks.STRIPPED_NECRO_WOOD.get(), models().withExistingParent("firstomd:stripped_necro_wood", "minecraft:block/cube_column"));
+        simpleBlockItem(ModBlocks.NECRO_LOG.get(), models().withExistingParent("firstomod:necro_log", "minecraft:block/cube_column"));
+        simpleBlockItem(ModBlocks.NECRO_WOOD.get(), models().withExistingParent("firstomod:necro_wood", "minecraft:block/cube_column"));
+        simpleBlockItem(ModBlocks.STRIPPED_NECRO_LOG.get(), models().withExistingParent("firstomod:stripped_necro_log", "minecraft:block/cube_column"));
+        simpleBlockItem(ModBlocks.STRIPPED_NECRO_WOOD.get(), models().withExistingParent("firstomod:stripped_necro_wood", "minecraft:block/cube_column"));
 
         logBlock(((RotatedPillarBlock) ModBlocks.NECRO_LOG.get()));
         axisBlock((RotatedPillarBlock) ModBlocks.NECRO_WOOD.get(),blockTexture(ModBlocks.NECRO_LOG.get()),blockTexture(ModBlocks.NECRO_LOG.get()));
@@ -40,5 +42,9 @@ public class ModBlockStateProvider extends BlockStateProvider  {
     private void BlockWithItem(RegistryObject<Block> blockRegistryObject){
         simpleBlockWithItem(blockRegistryObject.get(),cubeAll(blockRegistryObject.get()));
 
+    }
+    private void saplingBlock(RegistryObject<Block> blockRegistryObject){
+        simpleBlock(blockRegistryObject.get(),
+                models().cross(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(),blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 }

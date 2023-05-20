@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "firstmod:stripped_necro_log",
+    "firstmod:stripped_necro_wood"
   ]
 }

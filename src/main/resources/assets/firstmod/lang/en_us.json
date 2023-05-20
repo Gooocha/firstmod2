@@ -8,5 +8,11 @@
   "item.firstmod.necro_helmet": "NECRO HELMET",
   "item.firstmod.necro_boots": "NECRO BOOTS",
   "item.firstmod.necro_leggins": "NECRO LEGGINS",
-  "item.firstmod.necro_chestplate": "NECRO CHESTPLATE"
+  "item.firstmod.necro_chestplate": "NECRO CHESTPLATE",
+  "block.firstmod.necro_sapling": "NECRO SAPLING",
+  "block.firstmod.necro_wood": "Necro wood",
+  "block.firstmod.necro_planks": "Necro planks",
+  "block.firstmod.necro_log": "Necro log",
+  "block.firstmod.stripped_necro_log": "Stripped necro log",
+  "block.firstmod.stripped_necro_wood": "Stripped necro wood"
 }
